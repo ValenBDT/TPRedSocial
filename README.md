@@ -21,6 +21,7 @@
 2. Añadir la tabla "chat" como tabla maestro y que la tabla "mensaje" fueran los detalles
 3. Optimizacion en refrescar el chat (Borra todos los datos visualizados y trae de nuevo la informacion de la base de datos con la informacion actual)
 4. Panel de administracion de usuario (Me refiero a un panel individual donde se pueda actualizar informacion del usuario mismo, ya que solo el que tiene rol de administrador puede actualizar informacion de todos los usuarios)
+5. Cuando borro un usuario, se borran los mensajes que este mismo hizo, pero no los que le mandaron. Por ende, los mensajes quedan en la base de datos, pero son inaccesibles. (Me hubiera gustado mejorar este aspecto) 
 
 ## Notas
 
